@@ -7,3 +7,27 @@
      margin: 0;
      padding: 0;
  }
+ /* users.vue页面的样式 */
+ /*  面包屑导航区域  */
+ 
+ .el-breadcrumb {
+     margin-bottom: 15px;
+     font-size: 12px;
+ }
+ /* 卡片视图区域 */
+ 
+ .el-card {
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+ }
+ 
+ .el-table {
+     /* 用户列表跟搜索框之间的间距 */
+     margin-top: 15px;
+     /* 表格内文字的大小 */
+     font-size: 14px;
+ }
+ 
+ .el-pagination {
+     /* 分页与表格之间的距离 */
+     margin-top: 15px;
+ }
