@@ -18,7 +18,7 @@ import Params from './components/goods/Params.vue'
 // 导入categories 商品分类
 import Categories from './components/goods/Categories.vue'
 // 导入Orders 订单管理 列表
-// import Orders from './components/management--ddgl/Orders.vue'
+import Orders from './components/management--ddgl/Orders.vue'
 // 导入全局样式表
 import './assets/css/global.css'
 
@@ -44,7 +44,7 @@ const router = new Router({
                     { path: '/goods', component: Goods },
                     { path: '/params', component: Params },
                     { path: '/categories', component: Categories },
-                    // { path: '/orders', component: Orders }
+                    { path: '/orders', component: Orders }
                 ]
             }
 
