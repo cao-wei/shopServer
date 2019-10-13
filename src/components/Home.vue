@@ -166,11 +166,11 @@
     }
     
     .toggle-button {
-        background-color: #4A5064;
+        background-color: #40B6FF;
         text-align: center;
-        color: #fff;
+        color: #EF40FF;
         line-height: 24px;
-        font-size: 10px;
+        font-size: 12px;
         /* 字间距 */
         letter-spacing: 0.2em;
         /* 鼠标移入时变成小手 */

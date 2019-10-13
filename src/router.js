@@ -7,6 +7,18 @@ import Home from './components/Home.vue'
 import Welcome from './components/Welcome.vue'
 // 导入users 路径
 import Users from './components/user/Users.vue'
+// 导入rights 权限列表路径
+import Rights from './components/power/Rights.vue'
+// 导入roles 权限管理 角色列表
+import Roles from './components/power/Roles.vue'
+// 导入goods 商品列表
+import Goods from './components/goods/Goods.vue'
+// 导入Params 分类参数
+import Params from './components/goods/Params.vue'
+// 导入categories 商品分类
+import Categories from './components/goods/Categories.vue'
+// 导入Orders 订单管理 列表
+import Orders from './components/management--ddgl/Orders.vue'
 // 导入全局样式表
 import './assets/css/global.css'
 
@@ -26,7 +38,13 @@ const router = new Router({
                 // 登录成功之后重定向到/welcome
                 redirect: '/welcome',
                 children: [{ path: '/welcome', component: Welcome },
-                    { path: '/users', component: Users }
+                    { path: '/users', component: Users },
+                    { path: '/rights', component: Rights },
+                    { path: '/roles', component: Roles },
+                    { path: '/goods', component: Goods },
+                    { path: '/params', component: Params },
+                    { path: '/categories', component: Categories },
+                    { path: '/orders', component: Orders }
                 ]
             }
 
