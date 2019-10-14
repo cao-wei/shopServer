@@ -32,3 +32,7 @@
      /* 分页与表格之间的距离 */
      margin-top: 15px;
  }
+ 
+ .el-scrollbar__wrap {
+     height: 300px;
+ }
