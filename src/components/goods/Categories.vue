@@ -133,7 +133,9 @@
                     value: 'cat_id',
                     label: 'cat_name',
                     children: 'children',
+                    // expandTrigger: 'hover'   expandTrigger这个不能改变，是自带的
                     expandTrigger: 'hover',
+                    // 前面的选择框按钮
                     checkStrictly: 'true'
 
                 },
