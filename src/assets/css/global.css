@@ -36,3 +36,15 @@
  .el-scrollbar__wrap {
      height: 300px;
  }
+ 
+ .el-steps {
+     margin-top: 15px;
+ }
+ 
+ .el-step__title {
+     font-size: 13px;
+ }
+ 
+ .ql-editor {
+     min-height: 300px;
+ }
