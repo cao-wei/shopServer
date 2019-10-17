@@ -48,6 +48,9 @@ import {
     Upload
 
 } from 'element-ui'
+// 导入时间线组件
+import Timeline from './timeline/index.js'
+import TimelineItem from './timeline-item/index.js'
 // 注册成全局的组件
 Vue.use(Button)
 Vue.use(Form)
@@ -84,6 +87,8 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
     //全局挂载
 Vue.prototype.$message = Message
     // 全局挂载MessageBox  （删除操作用到的）
