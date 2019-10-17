@@ -21,6 +21,8 @@ import Categories from './components/goods/Categories.vue'
 import Orders from './components/management--ddgl/Orders.vue'
 // 导入Add 添加商品的页面
 import Add from './components/goods/Add.vue'
+// 导入report报表文件
+import Report from './components/report/Report.vue'
 // 导入全局样式表
 // import './assets/css/global.css'
 
@@ -49,7 +51,8 @@ const router = new Router({
                     { path: '/categories', component: Categories },
                     { path: '/orders', component: Orders },
                     // 通过 $router路由  访问 goods下面的add文件
-                    { path: '/goods/add', component: Add }
+                    { path: '/goods/add', component: Add },
+                    { path: '/reports', component: Report }
                 ]
             }
 
