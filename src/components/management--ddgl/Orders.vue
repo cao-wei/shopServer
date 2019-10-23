@@ -42,7 +42,8 @@
     <template slot-scope="scope">{{scope.row.create_time | dateFormat}}</template>
 </el-table-column>
 <el-table-column label="操作" width="150px">
-    <template slot-scope="scope">
+    <!-- <template slot-scope="scope"> -->
+    <template>
         <!-- 修改按钮 -->
         <el-button type="primary" icon="el-icon-edit" size="mini" @click="showBox"></el-button>
         <!-- 查看物流进度按钮 -->

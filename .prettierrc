@@ -1,1 +1,3 @@
-{ "semi": false, "singleQuote": true }
+{ "semi": false, "singleQuote": true,
+<!-- printWidth一行最多允许有多少个字符长度 如果超过了给定的字符 就换行显示-->
+"printWidth": 200 }
